@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.32925779.chunk.css",
+    "main.js": "/static/js/main.bb5e2abc.chunk.js",
+    "main.js.map": "/static/js/main.bb5e2abc.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6accf6de.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6accf6de.js.map",
+    "static/js/2.27f23fbb.chunk.js": "/static/js/2.27f23fbb.chunk.js",
+    "static/js/2.27f23fbb.chunk.js.map": "/static/js/2.27f23fbb.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9643d213dffcc4ee69e7dc0df42887c6.js": "/precache-manifest.9643d213dffcc4ee69e7dc0df42887c6.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.32925779.chunk.css.map": "/static/css/main.32925779.chunk.css.map",
+    "static/js/2.27f23fbb.chunk.js.LICENSE.txt": "/static/js/2.27f23fbb.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/blackNavBG.79686a1c.jpg",
+    "static/media/hexLogo.png": "/static/media/hexLogo.cdb04d49.png",
+    "static/media/prettyPicture.jpg": "/static/media/prettyPicture.26989930.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6accf6de.js",
+    "static/js/2.27f23fbb.chunk.js",
+    "static/css/main.32925779.chunk.css",
+    "static/js/main.bb5e2abc.chunk.js"
+  ]
+}

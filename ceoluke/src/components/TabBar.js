@@ -7,7 +7,6 @@ import Tab from '@material-ui/core/Tab';
 import SwipeableViews from 'react-swipeable-views';
 import PropTypes from 'prop-types';
 import Box from '@material-ui/core/Box';
-
 // locals
 import Work from "./Work"
 import Media from "./Media"
@@ -24,7 +23,8 @@ const useStyles = makeStyles((theme) => ({
         color:"black",
         fontFamily: "'Oswald', sans-serif",
         fontSize:22
-    }   
+    },
+    
   }));
 
 
@@ -68,7 +68,7 @@ function TabPanel(props) {
 const TabBar = () => {
     const classes = useStyles();
 
-    const [value, setValue] = React.useState(0);
+    const [value, setValue] = React.useState(3);
 
     const handleChange = (event, newValue) => {
         setValue(newValue);
@@ -119,7 +119,25 @@ const TabBar = () => {
                         <Contact/>
                     </TabPanel>
                 </SwipeableViews>
-            </div>            
+
+                
+                {/* <Grid container className={classes.bottomNavbar} spacing={3}>
+                    <Grid item xs={12}>
+                        <Paper className={classes.paper}>
+                            <InstagramIcon className={classes.bottomIcon}/>
+                            <LinkedInIcon className={classes.bottomIcon}/>
+                        </Paper>
+                    </Grid>
+                    <Grid item xs={12}>
+                        <Paper className={classes.paper}>
+                        &copy; Lukas Simianer, all rights reserved 2021
+                        </Paper>
+                    </Grid>                   
+                </Grid> */}
+
+
+            </div> 
+
         </>
     );
 }

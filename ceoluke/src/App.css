@@ -28,3 +28,6 @@ html, body{
 #mainPic{
   width: 70%;
 }
+#storyHeaderText{
+  font-family: 'Oswald', sans-serif;
+}

@@ -14,7 +14,7 @@ import GridListTileBar from '@material-ui/core/GridListTileBar';
 import IconButton from '@material-ui/core/IconButton';// local imports
     
 import hexLogo from '../images/hexLogo.png'
-import FacePic from '../images/prettyPicture.jpg'
+import TabBar from '../components/TabBar'
 
 
 const useStyles = makeStyles(() => ({
@@ -73,27 +73,17 @@ const Home = () => {
                     </Container>
                 </Grid>
                 
-                <Grid container direction={"row"} spacing={0}>                    
+                <Grid container direction={"row"} spacing={0}>                 
 
                 <Grid item xs={12}>
-                    Media
+                    <TabBar/>
                 </Grid>
 
-                <Grid item xs={12}>
-                    Media
-                </Grid>
+                
 
-                <Grid item xs={12}>
-                    Companies
-                </Grid>
+                
 
-                <Grid item xs={12}>
-                    My Story
-                </Grid>
-
-                <Grid item xs={12}>
-                    Contact
-                </Grid>
+                
             </Grid>
 
         </>

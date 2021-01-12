@@ -7,20 +7,28 @@ import {
   Redirect, 
   useLocation
 } from "react-router-dom";
+import { createMuiTheme } from '@material-ui/core/styles';
 //  import components 
 import Home from './pages/Home';
 
 // css master
 import './App.css';
 
+const Oswald =  "'Oswald', sans-serif";
 
+const theme = createMuiTheme({
+  typography: {
+    fontFamily: Oswald,    
+    }
+  }
+);
 
 const AppPages = () => {
   const location = useLocation();
   return (
     <>
     <Route exact path="/CEORepo" component={Home}/> 
-    <Redirect to="/" />
+    <Redirect to="/CEORepo" />
     </>
   );
 };

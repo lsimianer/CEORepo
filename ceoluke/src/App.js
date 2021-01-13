@@ -27,8 +27,8 @@ const AppPages = () => {
   const location = useLocation();
   return (
     <>
-    <Route exact path="/CEORepo" component={Home}/> 
-    <Redirect to="/CEORepo" />
+    <Route exact path="/" component={Home}/> 
+    <Redirect to="/" />
     </>
   );
 };
